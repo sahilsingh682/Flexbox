@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex-container{
+    width: 960px;
+    margin: 0 auto;
+    border: 5px solid gray;
+    display: flex;
+    flex-direction: column;flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+}
+.flex-item{
+    background-color: skyblue;
+    border: 5px solid black;
+    width: 100px;
+}
